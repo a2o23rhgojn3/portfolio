@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNTITLED</title>
+    <!-- reset -->
+    <link rel="stylesheet" href="style/vendors/reset.css">
+    <!-- animation -->
+    <link rel="stylesheet" href="style/vendors/animate.css">
+    <script src="https://kit.fontawesome.com/043359d8e6.js" crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <!-- style -->
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="image">
+            <h1 class="image__text">UNTITLED</h1>
+        </div>
+    </header>
+    <main>
+        <section id="site">
+            <h1 class="sec-title animate" data-animate="bounceInLeft" data-duration="0.5s" data-iteration="1">
+                <span>SITE</span>
+            </h1>
+            <div class="global-wrapper">
+                <div class="content-wrapper">
+                    <a href="https://a2o23rhgojn3.github.io/shop/index.html"><img src="images/no.9.png" alt="site1"></a>
+                </div>
+                <div class="content-wrapper">
+                    <img src="images/albums.png" alt="">
+                </div>
+                <div class="content-wrapper">
+                    <img src="images/albums.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="photo">
+            <h1 class="sec-title animate" data-animate="bounceInLeft" data-duration="0.5s" data-iteration="1"">PHOTO</h1>
+            <div class=" global-wrapper">
+                <div class="content-wrapper">
+                    <img src="images/no.1.png" alt="no.1">
+                </div>
+                <div class="content-wrapper">
+                    <img src="images/no.2.png" alt="no.2">
+                </div>
+                <div class="content-wrapper">
+                    <img src="images/no.3.png" alt="no.3">
+                </div>
+                </div>
+        </section>
+        <section id="about">
+            <h1 class="sec-title animate" data-animate="bounceInLeft" data-duration="0.5s" data-iteration="1"">ABOUT</h1>
+            <div class=" content-wrapper text-align-left">
+                <p><span class="description-title">NAME</span><span>:Ryosuke</span></p>
+                <p><span class="description-title">GENDER</span><span>:MAN</span></p>
+                <p><span class="description-title">AGE</span><span>:24</span></p>
+                </div>
+        </section>
+    </main>
+    <footer>
+        <div class="sns">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+        <div id="copyright">© 2022 Untitled</div>
+    </footer>
+    <script src="js/vendors/jquery.js"></script>
+    <script src="js/vendors/jquery.scrolla.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.animate').scrolla();
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+header {
+    .image {
+        background-image: url('https://github.com/a2o23rhgojn3/portfolio/blob/main/images/eyecatch_1280x672.png?raw=true');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 630px;
+        position: relative;
+        &__text {
+            font-family: 'MS PMincho', serif;
+            font-weight: bold;
+            font-size: 4rem;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+    }
+}
+
+@media (min-width: 1280px) {
+    header {
+        .image {
+            background-image: url('https://github.com/a2o23rhgojn3/portfolio/blob/main/images/eyecatch_1980x1040.png?raw=true');
+            height: 1040px;
+            &__text {
+                font-size: 10rem;
+            }
+        }
+    }
+}
