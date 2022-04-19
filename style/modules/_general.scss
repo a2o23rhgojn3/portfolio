@@ -1,7 +1,87 @@
-html {
-    font-family: 'Staatliches', cursive;
-    font-size: 16px;
+// style
+a {
+    cursor: pointer;
+}
+button {
+    outline: none;
+
+}
+h1 {
+    font-family: 'Rampart One', cursive;
+    font-size: 1.5rem;
+}
+h2 {
+    font-family: 'Rampart One', cursive;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+h3 {
+    font-size: 1.5rem;
+}
+.underline {
+    text-decoration: underline;
+}
+.object-fit-cover {
+    object-fit: cover;
+}
+.bg-color-grey {
+    background-color: $grey;
+}
+// position
+.text-align-center {
+    text-align: center;
+}
+.text-align-right {
+    text-align: right;
 }
 .text-align-left {
     text-align: left;
 }
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+// wrapper
+.wrapper {
+    margin: 3vw;
+}
+.top-bottom-wrapper {
+    margin: 3vh 0;
+}
+.image-wrapper {
+    margin: 1vw 0;
+}
+.style-wrapper {
+    padding: 3px;
+}
+// layout
+.flex {
+    display: flex;
+}
+.gap {
+    gap: 30px 20px;
+}
+.wrap {
+    flex-wrap: wrap;
+} 
+.justify-center {
+    justify-content: center;
+}
+.justify-space-around {
+    justify-content: space-around;
+}
+.justify-space-between {
+    justify-content: space-between;
+}
+.align-items-center {
+    align-items: center;
+}
+.x-scroll {
+    overflow-x: scroll;
+}
+.grid {
+    display: grid;
+}
+

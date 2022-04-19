@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 
 <head>
     <meta charset="UTF-8">
@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="style/vendors/reset.css">
     <!-- animation -->
     <link rel="stylesheet" href="style/vendors/animate.css">
+    <!-- font awesome -->
     <script src="https://kit.fontawesome.com/043359d8e6.js" crossorigin="anonymous"></script>
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rampart+One&family=Yusei+Magic&display=swap" rel="stylesheet">
     <!-- style -->
     <link rel="stylesheet" href="style/style.css">
 </head>
@@ -26,59 +27,103 @@
         </div>
     </header>
     <main>
-        <section id="site">
-            <h1 class="sec-title animate" data-animate="bounceInLeft" data-duration="0.5s" data-iteration="1">
+        <section id="site" class="wrapper">
+            <h2 class="text-align-center animate" data-animate="bounceInLeft" data-duration="0.5s" data-iteration="1">
                 <span>SITE</span>
-            </h1>
-            <div class="global-wrapper">
-                <div class="content-wrapper">
-                    <a href="https://a2o23rhgojn3.github.io/shop/index.html"><img src="images/no.9.png" alt="site1"></a>
+            </h2>
+            <p class="caution text-align-right">※以下、サイトはトップページのみを作成(MYFAV4U.comを除く)</p>
+            <div class="contents flex gap wrap">
+                <div class="content style-wrapper bg-color-grey">
+                    <a href="https://a2o23rhgojn3.github.io/work3/">
+                        <div class="image-wrapper opacity-cover">
+                            <img class="object-fit-cover" src="images/no.18.png" alt="site1">
+                        </div>
+                        <div class="description">
+                            <h3 class="name text-align-center underline">SHOES SHOP</h3>
+                            <ul class="wrapper text-align-right">
+                                <li>HTML</li>
+                                <li>CSS(SCSS)</li>
+                                <li>jQuery</li>
+                                <li>その他ライブラリ</li>
+                                <li>PhotoShop</li>
+                            </ul>
+                        </div>
+                    </a>
                 </div>
-                <div class="content-wrapper">
-                    <img src="images/albums.png" alt="">
+                <div class="content style-wrapper bg-color-grey">
+                    <a href="https://a2o23rhgojn3.github.io/work1/">
+                        <div class="image-wrapper opacity-cover">
+                            <img class="object-fit-cover" src="images/no.19.png" alt="site1">
+                        </div>
+                        <div class="description">
+                            <h3 class="name text-align-center underline">佐々木工務店</h3>
+                            <ul class="wrapper text-align-right">
+                                <li>HTML</li>
+                                <li>CSS(SCSS)</li>
+                                <li>jQuery</li>
+                                <li>その他ライブラリ</li>
+                                <li>PhotoShop</li>
+                            </ul>
+                        </div>
+                    </a>
                 </div>
-                <div class="content-wrapper">
-                    <img src="images/albums.png" alt="">
+                <div class="content style-wrapper bg-color-grey">
+                    <a href="https://myfav4u.com/">
+                        <div class="image-wrapper opacity-cover">
+                            <img class="object-fit-cover" src="images/no.2.png" alt="site1">
+                        </div>
+                        <div class="description">
+                            <h3 class="name text-align-center underline">myfav4u.com</h3>
+                            <ul class="wrapper text-align-right">
+                                <li>WordPress</li>
+                                <li>HTML</li>
+                                <li>CSS(SCSS)</li>
+                                <li>PHP</li>
+                                <li>PhotoShop</li>
+                            </ul>
+                        </div>
+                    </a>
                 </div>
             </div>
         </section>
-        <section id="photo">
-            <h1 class="sec-title animate" data-animate="bounceInLeft" data-duration="0.5s" data-iteration="1"">PHOTO</h1>
-            <div class=" global-wrapper">
-                <div class="content-wrapper">
-                    <img src="images/no.1.png" alt="no.1">
-                </div>
-                <div class="content-wrapper">
-                    <img src="images/no.2.png" alt="no.2">
-                </div>
-                <div class="content-wrapper">
-                    <img src="images/no.3.png" alt="no.3">
-                </div>
-                </div>
-        </section>
-        <section id="about">
-            <h1 class="sec-title animate" data-animate="bounceInLeft" data-duration="0.5s" data-iteration="1"">ABOUT</h1>
-            <div class=" content-wrapper text-align-left">
-                <p><span class="description-title">NAME</span><span>:Ryosuke</span></p>
-                <p><span class="description-title">GENDER</span><span>:MAN</span></p>
-                <p><span class="description-title">AGE</span><span>:24</span></p>
-                </div>
+
+        <section id="about" class="wrapper">
+            <h2 class="text-align-center animate" data-animate="bounceInLeft" data-duration="0.5s" data-iteration="1"">ABOUT</h2>
+            <table class="">
+                <thead>
+                    <tr>
+                        <th>NAME</th>
+                        <td>:</td>
+                        <td>Ryosuke</td>
+                    </tr>
+                    <tr>
+                        <th>GENDER</th>
+                        <td>:</td>
+                        <td>MAN</td>
+                    </tr>
+                    <tr>
+                        <th>AGE</th>
+                        <td>:</td>
+                        <td>24</td>
+                    </tr>
+                </thead>
+            </table>
         </section>
     </main>
     <footer>
-        <div class="sns">
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-youtube"></i>
-        </div>
-        <div id="copyright">© 2022 Untitled</div>
-    </footer>
-    <script src="js/vendors/jquery.js"></script>
-    <script src="js/vendors/jquery.scrolla.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('.animate').scrolla();
-        });
-    </script>
+        <!-- <div class=" sns">
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+                </div> -->
+                <div id="copyright">© 2022 Untitled</div>
+                </footer>
+                <script src="js/vendors/jquery.js"></script>
+                <script src="js/vendors/jquery.scrolla.min.js"></script>
+                <script>
+                    $(document).ready(function () {
+                        $('.animate').scrolla();
+                    });
+                </script>
 </body>
 
 </html>
