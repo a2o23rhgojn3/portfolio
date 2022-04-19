@@ -145,7 +145,7 @@ h3 {
 }
 
 header .image {
-  background-image: url("https://github.com/a2o23rhgojn3/portfolio/blob/main/images/eyecatch_1280x672.png?raw=true");
+  background-image: url("https://github.com/a2o23rhgojn3/portfolio/blob/master/images/eyecatch_1280x672.png?raw=true");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -165,7 +165,7 @@ header .image__text {
 
 @media (min-width: 1280px) {
   header .image {
-    background-image: url("https://github.com/a2o23rhgojn3/portfolio/blob/main/images/eyecatch_1980x1040.png?raw=true");
+    background-image: url("https://github.com/a2o23rhgojn3/portfolio/blob/master/images/eyecatch_1980x1040.png?raw=true");
     height: 1040px;
   }
   header .image__text {
