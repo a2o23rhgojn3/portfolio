@@ -1,27 +1,37 @@
 header {
     .image {
-        background-image: url('https://github.com/a2o23rhgojn3/portfolio/blob/master/images/eyecatch_1280x672.png?raw=true');
+        background-image: url('../../images/eyecatch.png');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         width: 100%;
-        height: 630px;
+        height: 80vh;
         position: relative;
+
         &__text {
             font-size: 3.5rem;
             position: absolute;
             top: 50%;
             left: 50%;
-            transform: translate(-50%,-50%);
+            transform: translate(-50%, -50%);
         }
     }
+
+    .image::after {
+        position: absolute;
+        content: '';
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        box-shadow: inset 0 0 20px 15px white;
+    }
+
 }
 
 @media (min-width: 1280px) {
     header {
         .image {
-            background-image: url('https://github.com/a2o23rhgojn3/portfolio/blob/master/images/eyecatch_1980x1040.png?raw=true');
-            height: 1040px;
             &__text {
                 font-size: 8rem;
             }
